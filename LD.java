@@ -6,6 +6,10 @@ public class LinkDemo {
 		l.addNode("b");
 		l.addNode("c");
 		l.addNode("d");
+
+		l.addNode("b");
+		l.addNode("c");
+		l.addNode("d");
 		l.printNode();
 		l.deleteNode("c");
 		l.printNode();
